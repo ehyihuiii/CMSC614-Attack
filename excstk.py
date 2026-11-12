@@ -5,7 +5,7 @@ context.terminal = ["tmux", "splitw", "-h"]
 path = "./execstack"
 
 
-#io = process(path)
+# io = process(path)
 io = gdb.debug(path, '''
         b main
         '''

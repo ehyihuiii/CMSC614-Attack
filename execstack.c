@@ -23,8 +23,6 @@ void arbitrary_write(struct A *job) {
   ((unsigned long *)job->buffer)[idx] = val;
   puts("written");
 
-//  fgets(job->buffer, 300, stdin);
-//  puts("written");
 }
 
 
