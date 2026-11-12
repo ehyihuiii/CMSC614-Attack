@@ -2,7 +2,7 @@
 `execstack` demonstrates a basic ret2shellcode-style exploit. 
 
 ret2shellcode exploits the way return addresses are stored on the stack. 
-By overwriting them with an address we control, we can redirect program flow towards our shellcode, giving us RCE.
+By overwriting them with an address we control, we can redirect program flow towards our shellcode.
 
 ## Set-up
 ```
